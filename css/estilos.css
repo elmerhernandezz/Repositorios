@@ -1,0 +1,243 @@
+header{
+    text-decoration: none;
+}
+.contactos{
+    color: white;
+    margin-top: 1px;
+    margin-left: 90px;
+    pointer-events: none;
+}
+#logo a img{
+    width: 100px;
+}
+.contactos ul,.redes ul{
+    display: flex;
+    list-style: none;
+}
+.contactos li{
+    margin-top: 6px;
+    margin-left: 7px;
+    margin-right: 15px;
+}
+.contactos i{
+    font-size: 21px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.redes a{
+    margin-left: 13px;
+}
+.redes i{
+    font-size: 21px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 1px;
+    border-radius: 8px;
+}
+.redes{
+    margin-left: 560px;
+    margin-top: 3px;
+}
+.menu{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.menu a{
+    color: black;
+}
+#buscador{
+    width: 656px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+    padding-left: 16px;
+}
+#cabecera2 i{
+    font-size: 21px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 8px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.menu-h i{
+    font-size: 30px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    margin-left: 10px; 
+    margin-right: 30px;
+}
+.info ul{
+    list-style: none;
+    display: flex;
+}
+.info a{
+    color: #000000;
+    font-weight: 300;
+}
+.info li{
+    margin-top: 7.5px;
+    margin-right: 40px;
+}
+.NameCat h4{
+    position: absolute;
+    padding-left: 20px;
+    top: 10px;
+    font-size: 19px;
+    z-index: 10;
+}
+footer{
+    display: flex;
+    text-align: left;
+}
+.secc1{
+    background-color: rgba(65, 165, 197, 1);
+    flex:1;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.secc2{
+    background-color: rgba(65, 165, 197, 1);
+    flex:1;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.secc3{
+    background-color: rgba(65, 165, 197, 1);
+    flex:1;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#secc1p1,#secc2p1,#secc2p2,#secc2p3,
+#secc2p4,#secc2p5,#secc3p1,#secc3p2,#secc3p4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+#nosotros,#direcc,#horario,
+#numt,#correo,#secc3p2,#secc3p4{
+   padding-top: 10px;
+}
+
+#secc1p1,#secc2p1,#secc3p1,#secc3p2,#secc3p4{
+    font-size: 17px;
+}
+.copyright {
+    background-color: #000000;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 1px;
+}
+.copyright p{
+    color: white;
+    padding-bottom: 10px;
+}
+.iconoF{
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 126, 253);
+    font-size: 21px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 1px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.iconoInst{
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 43, 212);
+    font-size: 21px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 0px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.iconoT{
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 209, 255);
+    font-size: 21px;
+    text-align: center;
+    width: 32px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 1px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.suscribete{
+    background-color: #FFB200;
+    color: white;
+    padding: 15px 150px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.correocontenedor {
+    display: flex;
+    align-items: center;
+    margin-top:  20px;
+} 
+.icono{
+    margin-right: 0px;
+    font-size: 18px;
+    padding: 11px 12px 13px;
+    border-radius: 9px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgba(217, 217, 217, 1);
+}
+.input-correo{
+    padding: 10px 78px ;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    font-size: 14px;
+    height: 46px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#agricola,#mastercard,#visa{
+    margin: 8px;
+    height: 30px;
+}
+#carouselExampleIndicators{
+    background: none;
+    margin: 47px 60px 57px 60px;
+}
+#carouselExampleIndicators img{
+    object-fit: cover;
+    height: 303px;
+    border-radius: 10px;
+}

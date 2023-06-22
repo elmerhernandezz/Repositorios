@@ -1,0 +1,105 @@
+.info_producto{
+    display: grid;
+    grid-template-areas: 'area1 area2 area3'            
+                                           ;
+}
+.product{
+    grid-area: area1;
+    list-style: none;
+    margin-top: 90px;
+}
+.product img{
+    object-fit: cover;
+    width: 62px;
+    height: 80px;
+    border-radius: 8px;
+}
+.product li{
+    margin-top: 25px;
+    width: 95px;
+    height: 98px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.datosproduct{
+    grid-area: area3;
+    margin-top: 137px;
+}
+.datosproduct h3{
+    font-size: 24px;
+    white-space: pre-wrap;
+    position: absolute;
+    pointer-events: none;
+}
+.datosproduct h1{
+    font-size: 30px;
+    margin-top: 102px;
+    pointer-events: none;
+}
+.wrapper{
+    margin-top: 60px;
+    height: 43px;
+    width: 178px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper i{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    cursor: pointer;
+}
+.wrapper span.num{
+    font-size: 25px;
+    border: 1px solid;
+    padding: 6px 20px 6px 20px;
+    pointer-events: none;
+    user-select: none;
+}
+.agregarC{
+    margin-top: 40px;
+    width: 330px;
+    height: 43px;
+    background-color: #FFB200;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agregarC p{
+    font-size: 20px;
+}
+.img-producto img{
+    grid-area: area2;
+    object-fit: cover;
+    margin-top: 54px;
+    width: 331px;
+    height: 426px;
+    border-radius: 8px;
+}
+.tituloSugeridos{
+    position: absolute;
+    padding-left: 20px;
+    top: 0.1px;
+    font-size: 19px;
+    z-index: 10;
+    background-color: #0292C4;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.pictureP img{
+    object-fit: cover;
+}
+.backgroundP{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px #0292C4 solid;
+}
